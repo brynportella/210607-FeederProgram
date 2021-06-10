@@ -1,10 +1,15 @@
 
 public class Dog {
+	
+	//instance variables
+	//size is a primitive instance variable
 	 double size = 45.5;
+	 //name is a reference instance variable 
 	 String name = "Daisy"; 
 	
 	//access modifier optional specifier return-type name parameters
-	public int bark() {
+	//instance method
+	 public int bark() {
 		System.out.println("Woof");
 		return 5; 
 	}

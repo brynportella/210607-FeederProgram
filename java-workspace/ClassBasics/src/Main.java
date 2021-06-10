@@ -13,9 +13,11 @@ public class Main {
 		System.out.println(myDog.name);
 		System.out.println(myDog.size);
 		
+		System.out.println(myDog);
 		myDog.name = "Ruby";
 		//Call bark on myDog
-		System.out.println(myDog.bark());
+		//System.out.println(myDog.bark());
+		int myResult = myDog.bark(); 
 		
 		System.out.println(myDog.name);
 		
