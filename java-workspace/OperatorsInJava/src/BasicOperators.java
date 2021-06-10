@@ -23,8 +23,11 @@ public class BasicOperators {
 		System.out.println(result);
 		//Post-fix operation
 		System.out.println(result++);
-		System.out.println(result);
-
+		System.out.println(result);//Result is 1.0 
+		System.out.println(result--);
+		//Result is now 0.0 again 
 		
+		result +=3; //result = result + 3;
+		//True for multiplication, subtraction etc. 
 	}
 }
