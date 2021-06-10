@@ -1,6 +1,7 @@
 # Foo Bar 
 
-You have to print the numbers from 1 to 100 in new line.
+You have to print the numbers from 1 to 100.
+
 But for every multiple of 5 print "Foo".
 
 For every multiple of 3 print "Bar". 
