@@ -5,7 +5,7 @@ package com.revature.model;
  * class members to be as private as possible 
  * 
  */
-public class Candy extends Object {
+public class Candy {
 	//This is package-private
 	//default access modifier -- i.e. NO access modifier 
 	String name; 
@@ -18,6 +18,14 @@ public class Candy extends Object {
 	
 	//protected -- more on this to come
 	
+	public Candy() {}
+	
+	public Candy(String name, int mySecretCandyNumber, double numberOfCalories) {
+		super(); //This invokes the Object() constructor
+		this.name = name;
+		this.mySecretCandyNumber = mySecretCandyNumber; 
+		this.numberOfCalories = numberOfCalories; 
+	}
 	
 	//Getter and setter for name 
 	

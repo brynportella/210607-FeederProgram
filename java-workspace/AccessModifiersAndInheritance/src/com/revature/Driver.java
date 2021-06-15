@@ -1,5 +1,6 @@
 package com.revature;
 
+
 import com.revature.model.Candy;
 import com.revature.model.Chocolate;
 
@@ -21,8 +22,8 @@ public class Driver {
 		System.out.println(kitkat.numberOfCalories);
 		
 		Chocolate myChocolate = new Chocolate();
-		myChocolate.setName("Chocolate from main");
-		myChocolate.printChocolate();
-		System.out.println(myChocolate);
+		//myChocolate.setName("Chocolate from main");
+		//myChocolate.printChocolate();
+		//System.out.println(myChocolate);
 	}
 }

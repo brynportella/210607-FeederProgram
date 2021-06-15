@@ -2,14 +2,48 @@ package com.revature.model;
 
 public class HardCandy extends Candy {
 
-	/* TODO:
-	 * Add hardycandy specific fields 
-	 * 
-	 * add hardcandy specific methods
-	 * 
-	 * Set up constructor to establish the state of the hardycandy 
-	 * 
+	/* TODO: 
+
+	 * 	  
 	 * Override toString
 	 * 
 	 */
+	private String flavor;
+	
+	public HardCandy() {
+		//name = "Hard Candy"
+		//7 - secret number 
+		//55.0- num of calories
+		super("Hard Candy", 7, 55.0 );
+	}
+	
+	public HardCandy(String flavor, String name, int number, double calories) {
+		super(name, number, calories );		
+		this.flavor = flavor;
+	}
+
+
+
+	
+
+	public String getFlavor() {
+		return flavor;
+	}
+
+	public void setFlavor(String flavor) {
+		this.flavor = flavor;
+	} 
+	
+	public void breakApart() {
+		this.numberOfCalories /= 2.0; 
+	}
+
+	@Override
+	public String toString() {
+		return "HardCandy [flavor=" + this.flavor + ", name=" + name + ", numberOfCalories=" + numberOfCalories
+				+ ", getMySecretCandyNumber()=" + getMySecretCandyNumber() + "]";
+	}
+	
+	
+	
 }

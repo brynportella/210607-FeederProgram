@@ -11,11 +11,17 @@ public class Chocolate extends Candy{
 	 * 
 	 */
 	
+	private String type; 
+	
 	
 	public Chocolate() {
-		this.name = "Some kind of chocolate!";
-		this.numberOfCalories = 100.0; 
-		this.setMySecretCandyNumber(5);
+		super("Some kind of chocolate!", 5, 100.0); 
+		//this.name = ;
+		//this.numberOfCalories = 100.0; <-- redundant since we call our parent constructor that 
+		//already assigns numberOfCalories the last value 
+		//this.setMySecretCandyNumber(5);<-- redundant since we call our parent constructor that 
+		//already assigns secretNumber the second value 
+		this.type = "Milk"; 
 	}
 	
 	public void printChocolate() {
