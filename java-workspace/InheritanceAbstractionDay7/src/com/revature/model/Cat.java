@@ -2,7 +2,11 @@ package com.revature.model;
 
 public class Cat extends Animal {
 	private int numberOfLives;
-
+	
+	public Cat() {
+		super("Tom"); 
+	}
+	
 	@Override
 	public String toString() {
 		return super.toString()+"Cat [numberOfLives=" + numberOfLives + "]";
@@ -18,7 +22,7 @@ public class Cat extends Animal {
 
 	@Override
 	public void eat() {
-		System.out.println("Yum!");
+		System.out.println("Yum fish!");
 		
 	} 
 	

@@ -24,4 +24,6 @@ public class PolyMorphGuessingGame {
 		System.out.println(animal);
 		scan.close(); 
 	}
+	
+	//write methods that deal with swimming animals
 }

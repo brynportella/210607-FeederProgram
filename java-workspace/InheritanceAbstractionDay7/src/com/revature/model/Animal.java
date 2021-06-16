@@ -1,9 +1,23 @@
 package com.revature.model;
 
 public abstract class Animal {
-	protected String name;
+	//class or static scope
+	//One copy shared among all animals 
+	//Accessible through the name of the class
+	//Animal.numberOfAnimals 
+	private static int numberOfAnimals; 
 	
+	//instance or object scope
+	//each instance or object gets its own copy 
+	protected String name= "Animal Name";
 	
+	public Animal() {
+		//name = "Animal name";
+	}
+	
+	public Animal(String name) {
+		this.name = name; 
+	}
 
 	public String getName() {
 		return name;
